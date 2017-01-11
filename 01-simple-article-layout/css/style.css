@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #FBF9F1;
+}
+
+#app-container {
+  margin-top: 25px;
+  padding-left: 12%;
+  padding-right: 40%;
+}
+#app-container .header{
+  font-family: "Georgia";
+  display: inline-block;
+  padding-top: 25px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.background {
+  background-color: black;
+  color: white;
+  font-family: "Geneva";
+
+}
+
+#app-container .article {
+  font-family: "Georgia", "Geneva";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+
+#app-container .article .hello {
+  font-size: 50px;
+  font-weight: 300;
+}
+#app-container .article p{
+  padding-top: 20px;
+}
