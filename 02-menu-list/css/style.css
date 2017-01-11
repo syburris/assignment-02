@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+
+#app-container {
+  display: block;
+  font-family: "Avenir";
+  font-size: 16px;
+  margin-top: 10px;
+  margin-right: 80%;
+}
+
+#app-container .menu ul{
+  list-style-type: none;
+  font-family: Avenir;
+  font-size: 16px;
+  border: 1px solid lightgray;
+  margin-left: 10px;
+  padding-left: -10px;
+}
+
+#app-container .menu li {
+  border-bottom: 1px solid lightgray;
+  padding: 10px 10px 10px 10px;
+  margin-left: -40px;
+}
+
+#app-container .menu .last {
+  border: none;
+}
+
+#app-container .menu .home {
+  color: #66CC99;
+}
