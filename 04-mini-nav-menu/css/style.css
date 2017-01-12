@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+
+#app-container {
+  font-family: "Futura";
+}
+
+#app-container .header {
+  margin-top: 5%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#app-container .header p {
+  color: gray;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#app-container .navbar {
+  display: inline-block;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+#app-container .navbar a{
+  font-family: "Futura";
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgb(205,92,92);
+  padding: 15px 15px 15px 15px;
+  margin: 20px 20px 20px 20px;
+}
+#app-container .navbar #search {
+  outline: none;
+  padding-left: 20px;
+}

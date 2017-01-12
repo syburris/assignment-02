@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  border-bottom: 2px solid black;
+}
+#app-container {
+  display: inline-block;
+  font-family: sans-serif;
+  margin: auto;
+}
+p {
+  font-size: 12px;
+}
