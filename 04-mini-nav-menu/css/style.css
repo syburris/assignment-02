@@ -31,7 +31,13 @@
   padding: 15px 15px 15px 15px;
   margin: 20px 20px 20px 20px;
 }
-#app-container .navbar #search {
-  outline: none;
-  padding-left: 20px;
+#app-container .navbar input {
+  font-size: 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+  margin-left: 20px;
 }
