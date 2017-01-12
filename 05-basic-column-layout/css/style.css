@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+#app-container {
+    display: inline-block;
+    height: auto;
+}
+
+#app-container .col{
+  width: 25%;
+}
+
+#app-container .col .top-bar {
+  background: #004;
+  height: 40px;
+}
